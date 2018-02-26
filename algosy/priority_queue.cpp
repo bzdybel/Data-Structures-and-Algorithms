@@ -37,7 +37,7 @@ int main() {
         cin >> liczbaWazonow;
 
 //kolejka odrazu sortuje wartosci
-        priority_queue<Kwiaty, vector<Kwiaty>, less<Kwiaty> > kolejka; //rosn¹co chuj wie czy vector i less ma przyjac kwaiaty ale chyba tak
+        priority_queue<Kwiaty, vector<Kwiaty>, less<Kwiaty> > kolejka; //rosnÂ¹co chuj wie czy vector i less ma przyjac kwaiaty ale chyba tak
 
         int x;
         int suma = 0;
