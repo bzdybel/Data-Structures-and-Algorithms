@@ -28,7 +28,7 @@ int main() {
             for (int j = 0; j < liczbaKolumn; j++) {
 
                 cin >> wart;
-                //wczytujemy wartosc i w zaleznosci od pozycji obslugujemy j¹
+                //wczytujemy wartosc i w zaleznosci od pozycji obslugujemy jÂ¹
                 if (liczbaKolumn == 1) {
                     tab[a][j] = wart + tab[b][j];
                 } else if (j == 0) {
