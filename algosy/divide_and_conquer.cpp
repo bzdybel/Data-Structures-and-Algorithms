@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int x,y;
-// funkcja sprawdzaj¹ca czy dana wartosc jest szczytem
+// funkcja sprawdzajÂ¹ca czy dana wartosc jest szczytem
 bool  szczyt(int i, int j, double val){
     if (i != 0 && P(i-1,j) > val ){
         return false;
