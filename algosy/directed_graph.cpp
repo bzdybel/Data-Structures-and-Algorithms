@@ -148,7 +148,7 @@ int main() {
     scanf("%d", &liczbaZdjec);
     for (int numerZdjecia = 0; numerZdjecia < liczbaZdjec; numerZdjecia++) {
 
-        int liczbaWierzcholkow, liczbaKrawedzi; //liczba wierzcho³kow i krawedzi
+        int liczbaWierzcholkow, liczbaKrawedzi; //liczba wierzchoÅ‚kow i krawedzi
         scanf("%d%d", &liczbaWierzcholkow, &liczbaKrawedzi);
 
         if (liczbaWierzcholkow != liczbaKrawedzi || liczbaWierzcholkow < 3 || liczbaKrawedzi < 3) {
@@ -168,7 +168,7 @@ int main() {
         }
 
         for (int j = 0; j < liczbaKrawedzi; j++) {
-            int x, y; // numer wierzcholkow polaczonych krawedzi¹
+            int x, y; // numer wierzcholkow polaczonych krawedziÅ¡
             scanf("%d%d", &x, &y);
 
             arr[x]->dodajSasiada(y); //dodawanie sasiadow wzajemne
