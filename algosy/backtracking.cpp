@@ -18,7 +18,7 @@ bool rekplus(int tab[26], bool free_value[10], int carry, int poz) {
         int w3 = -1;
         if (i < r1) {
             w1 = tab[napis1[i] - 'A'];//mapa[napis1[i]];
-            if (w1 == -1) { // jesli mam nieprzypisyan¹ wartosc do litery
+            if (w1 == -1) { // jesli mam nieprzypisyanÂ¹ wartosc do litery
                 bool ret1 = false;
                 for (int j = 0; j < 10; j++) {
                     //szukam wolnej wartosci
@@ -116,7 +116,7 @@ bool rekplus(int tab[26], bool free_value[10], int carry, int poz) {
         if (w3 != (w1 + w2 + carry) % 10) {
             return false;
         }
-        //warunek na pierwszy test litera P byla = 0 i test sie wypierdziela³
+        //warunek na pierwszy test litera P byla = 0 i test sie wypierdzielaÂ³
         if ( i== (r4-1) && w3 == 0){
             return false;
         }
@@ -154,7 +154,7 @@ bool rekminus(int tab[26], bool free_value[10], int carry, int poz) {
         int w3 = -1;
         if (i < r1) {
             w1 = tab[napis1[i] - 'A']; //mapa[napis1[i]];
-            if (w1 == -1) { // jesli mam nieprzypisyan¹ wartosc do litery
+            if (w1 == -1) { // jesli mam nieprzypisyanÂ¹ wartosc do litery
                 bool ret1 = false;
                 for (int j = 0; j < 10; j++) {
                     //szukam wolnej wartosci
