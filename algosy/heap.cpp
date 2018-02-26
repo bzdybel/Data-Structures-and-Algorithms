@@ -80,7 +80,7 @@ public:
         //dziecko musi byc wieksze oraz musi byc w kopcu
         int i = 1;
         /*
-         Przypadki kiedy wykonuje siê petla:
+         Przypadki kiedy wykonuje siÄ™ petla:
          1.bracia mieszcza sie w rozmiarze
          1. lbrat > ojciec
          2. l brat == ojciec i lbrat.index < ojciec.index
